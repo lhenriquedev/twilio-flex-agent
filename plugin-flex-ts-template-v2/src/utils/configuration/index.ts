@@ -32,7 +32,7 @@ export const setLoadedFeaturesPopulated = (populated: boolean) => {
   loadedFeaturesPopulated = populated;
 };
 
-export const defaultLanguage = 'en-US';
+export const defaultLanguage = 'pt-BR';
 
 /**
  * Fetches the `custom_data` object from the hosted Flex configuration,

@@ -2,11 +2,11 @@ import { getFeatureFlags } from '../../utils/configuration';
 import BrandingConfig from './types/ServiceConfiguration';
 
 const {
-  enabled = false,
-  custom_logo_url = '',
-  use_custom_colors = false,
+  enabled = true,
+  custom_logo_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOh1TyvAxfXLd9gqChWcVSFYm5ko_7p8n-w&s',
+  use_custom_colors = true,
   custom_colors = {
-    main_header_background: '',
+    main_header_background: '#000000',
     side_nav_background: '',
     side_nav_border: '',
     side_nav_icon: '',
