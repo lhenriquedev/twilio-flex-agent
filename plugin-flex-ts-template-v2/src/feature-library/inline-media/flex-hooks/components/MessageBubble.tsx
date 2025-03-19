@@ -1,7 +1,7 @@
 import * as Flex from '@twilio/flex-ui';
 
-import InlineMedia from '../../custom-components/InlineMedia';
 import { FlexComponent } from '../../../../types/feature-loader';
+import InlineMedia from '../../custom-components/InlineMedia';
 
 export const componentName = FlexComponent.MessageBubble;
 export const componentHook = function addMyComponentToCallCanvas(flex: typeof Flex) {

@@ -1,5 +1,5 @@
-import { ITask, Template, templates } from '@twilio/flex-ui';
 import { CodeBlock } from '@twilio-paste/core/code-block';
+import { ITask, Template, templates } from '@twilio/flex-ui';
 
 import { StringTemplates } from '../../flex-hooks/strings';
 

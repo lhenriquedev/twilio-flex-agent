@@ -11,6 +11,7 @@ export enum FlexComponent {
   ParticipantCanvas = 'ParticipantCanvas',
   QueueStats = 'QueueStats',
   SideNav = 'SideNav',
+  TaskCanvas = 'TaskCanvas',
   TaskCanvasHeader = 'TaskCanvasHeader',
   TaskCanvasTabs = 'TaskCanvasTabs',
   TaskCard = 'TaskCard',

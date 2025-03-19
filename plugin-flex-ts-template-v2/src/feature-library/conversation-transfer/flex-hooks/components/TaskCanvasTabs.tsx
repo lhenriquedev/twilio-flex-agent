@@ -1,10 +1,10 @@
 import * as Flex from '@twilio/flex-ui';
 import { Tab, TaskHelper } from '@twilio/flex-ui';
 
+import { FlexComponent } from '../../../../types/feature-loader';
 import { isMultiParticipantEnabled } from '../../config';
 import { ParticipantTabLabel } from '../../custom-components/ParticipantTabLabel';
 import ParticipantsTab from '../../custom-components/ParticipantsTab';
-import { FlexComponent } from '../../../../types/feature-loader';
 
 interface Props {
   task: Flex.ITask;

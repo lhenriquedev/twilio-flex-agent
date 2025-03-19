@@ -1,7 +1,7 @@
 import { Box } from '@twilio-paste/core/box';
-import { Tabs, Tab, TabList, TabPanel, TabPanels, useTabState } from '@twilio-paste/core/tabs';
+import { Tab, TabList, TabPanel, TabPanels, Tabs, useTabState } from '@twilio-paste/core/tabs';
 import { useUID } from '@twilio-paste/core/uid-library';
-import { IWorker, Template, templates, ContentFragmentProps, WorkerSkills, Actions } from '@twilio/flex-ui';
+import { Actions, ContentFragmentProps, IWorker, Template, templates, WorkerSkills } from '@twilio/flex-ui';
 import React from 'react';
 
 import { StringTemplates } from '../../flex-hooks/strings';
