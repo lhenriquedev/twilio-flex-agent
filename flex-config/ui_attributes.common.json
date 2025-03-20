@@ -417,6 +417,9 @@
       },
       "user_info": {
         "enabled": false
+      },
+      "send_message_timeout": {
+        "enabled": false
       }
     }
   }
