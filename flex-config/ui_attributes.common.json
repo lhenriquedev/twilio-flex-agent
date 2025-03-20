@@ -1,6 +1,6 @@
 {
   "custom_data": {
-    "serverless_functions_domain": "<YOUR_SERVERLESS_DOMAIN>",
+    "serverless_functions_domain": "custom-flex-extensions-serverless-2779-dev.twil.io",
     "common": {
       "log_level": "info",
       "audit_log_ttl": 1209600,
@@ -77,9 +77,9 @@
       },
       "enhanced_crm_container": {
         "enabled": true,
-        "url": "{{serverless.url}}/features/enhanced-crm-container/index.html?line1={{task.from}}&line2={{task.direction}}",
+        "url": "https://homolog.app-eds.com/",
         "should_display_url_when_no_tasks": true,
-        "display_url_when_no_tasks": "{{serverless.url}}/features/enhanced-crm-container/index.html",
+        "display_url_when_no_tasks": "https://homolog.app-eds.com/",
         "enable_url_tab": true,
         "url_tab_title": "Web Page"
       },
@@ -393,11 +393,11 @@
         "enabled": true
       },
       "branding": {
-        "enabled": false,
-        "custom_logo_url": "",
-        "use_custom_colors": false,
+        "enabled": true,
+        "custom_logo_url": "https://esportesdasorte.bet.br/views/trader/esportesdasortevip/assets/images/logo.png",
+        "use_custom_colors": true,
         "custom_colors": {
-          "main_header_background": "rgb(6, 3, 58)",
+          "main_header_background": "#3511a2",
           "side_nav_background": "rgb(255, 255, 255)",
           "side_nav_border": "rgb(202, 205, 216)",
           "side_nav_icon": "rgb(18, 28, 45)",
@@ -416,10 +416,7 @@
         "exclude_queues": []
       },
       "user_info": {
-        "enabled": false
-      },
-      "send_message_timeout": {
-        "enabled": false
+        "enabled": true
       }
     }
   }

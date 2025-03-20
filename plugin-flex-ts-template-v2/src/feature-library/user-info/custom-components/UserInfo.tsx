@@ -1,8 +1,12 @@
 import { Box, Card, ListItem, Text, UnorderedList } from '@twilio-paste/core';
+import type { ITask } from '@twilio/flex-ui';
 
-export default function UserInfo(props) {
+interface UserInfoProps {
+  task?: ITask;
+}
+
+export default function UserInfo(props: UserInfoProps) {
   const { task } = props;
-  console.log(task);
 
   return (
     <Box marginY="space20" marginX="space20">
