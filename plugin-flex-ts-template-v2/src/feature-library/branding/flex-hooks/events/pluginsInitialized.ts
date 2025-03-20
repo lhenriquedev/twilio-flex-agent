@@ -2,7 +2,7 @@ import * as Flex from '@twilio/flex-ui';
 import merge from 'lodash/merge';
 
 import { FlexEvent } from '../../../../types/feature-loader';
-import { isCustomColorsEnabled, getCustomColors, getComponentThemeOverrides } from '../../config';
+import { getComponentThemeOverrides, getCustomColors, isCustomColorsEnabled } from '../../config';
 
 export const eventName = FlexEvent.pluginsInitialized;
 export const eventHook = function applyBrandingColors(flex: typeof Flex, manager: Flex.Manager) {
